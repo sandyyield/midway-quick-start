@@ -1,4 +1,11 @@
-import { Inject, Controller, Post, Provide, Query, Get } from '@midwayjs/decorator';
+import {
+  Inject,
+  Controller,
+  Post,
+  Provide,
+  Query,
+  Get,
+} from '@midwayjs/decorator';
 import { Context } from 'egg';
 // import { get } from 'http';
 import { IGetUserResponse } from '../interface';
